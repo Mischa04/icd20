@@ -1,0 +1,7 @@
+a = input("Please imput the cost of your drink: ")
+b = input("Please input the cost of your appatizer: ")
+c = input("Please input the cost of your entree: ")
+d = input("Please input the cost of your desert: ")
+percentage_tip = input("Please enter your tip in percentage: ")
+print("Bill summary: ")
+print(f"Subtotal: ${a * b * c * d}")
