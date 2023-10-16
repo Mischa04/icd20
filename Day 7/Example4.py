@@ -7,3 +7,4 @@ print("Formatted Pi:", formatted_pi)
 price = 29.99
 formatted_price = f"${price:.2f}"
 print("Formatted Price:", formatted_price)
+print("")
