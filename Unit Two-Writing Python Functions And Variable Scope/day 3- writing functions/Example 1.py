@@ -22,20 +22,7 @@ def convert_temperature(degrees, scale):
     else:
         return None
 
-def larger_string(string_a, string_b):
-    len_a = len(string_a)  #Len(str) returns the # of characters 
-    len_b = len(string_b)
-
-    if len_a > len_b:
-        return string_a
-    elif len_b > len_a:
-        return string_b
-    else:
-        return "Same"
-    
-def first_two(str):
-    return str[0:2]
-
+# 
 
 
 
