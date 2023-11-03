@@ -3,7 +3,7 @@ def input_bug_count(bug_type):
     return count
 
 def calculate_percent(total, count):
-    return (count/total)
+    return (f"{count/total:.2%}")
 
 def input_bug_type_and_count():
     bug_type=input("Enter bug type: ")
