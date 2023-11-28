@@ -14,8 +14,28 @@ def caught_speeding(speed, is_birthday):
     print(caught_speeding(83, True))
     print(caught_speeding(83, False))
 
+#Question 2
 
 
-#QUESTION 2
 
+#QUESTION 3
+def squirrel_play(temp, is_summer):
+    if is_summer:
+        if 60 <=temp <=90:
+            return True
+        else:
+            return False
+    else:
+        if 60 <=temp <=90:
+            return True
+        else:
+            return False
 
+#Question 4
+def in1020(a,b):
+    if 10 <= a <= 20:
+        return True
+    elif 10 <= b <= 20:
+        return True
+    else:
+        return False

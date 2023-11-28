@@ -4,3 +4,5 @@ def my_first_function():
 
  
 my_first_function()
+
+initial_health = int(input("Enter initial health value (between 50 and 100): "))
