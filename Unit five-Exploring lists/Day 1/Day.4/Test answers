@@ -1,0 +1,41 @@
+# n = 0
+# while (n<=0):
+#     n=int(input('Please enter a positive'))
+
+#Q1 - WHile loops
+n=int(input('Please enter a positive'))
+while n<=0: #while n is not positive
+    n=int(input('Please enter a positive'))
+
+import random.radInt(1,10)
+
+guess = 0
+while guess !=n:
+    guess = int(input('Enter your guess: '))
+    if guess < n:
+        print('Too low')
+    elif guess >n:
+        print('Too high')
+    else:
+        print('Correct')
+
+#Q3- While loops
+n=2
+sum = 0
+
+while n <=10:
+    sum =+ n
+    n+=2
+
+#FOR LOOP Q1
+sum = 0
+for i in range(2,21,2):
+    sum +=i
+print(sum)
+
+#Q2 - For loops
+letter = input("Please enter a letter")
+n = int(input("Enter a number: "))
+
+#for i in range(0, n):
+for i in range(n): #
